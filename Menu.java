@@ -12,4 +12,8 @@ public class Menu {
     public void showMenu() {
         System.out.println(nama + " - Rp" + harga);
     }
+
+    public void setHarga(int harga) {
+        this.harga = harga;
+    }
 }
